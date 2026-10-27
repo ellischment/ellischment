@@ -1,4 +1,4 @@
-# Василиса Эллищмент
+# Василиса Попова
 
 **LLM error detection и оценка неопределённости.** Ищу сигналы, по которым можно заранее понять, что модель ошибается, даже когда её уверенность молчит. Центральный университет, «Математика и компьютерные науки», 2 курс.
 
@@ -17,7 +17,7 @@
 | **SGTA** (в работе) | Пост-хок диагностика уверенных ошибок LLM: как быстро решение модели переворачивается при малых возмущениях residual stream. Предрегистрированный протокол, запуски на Qwen2.5 и OLMo-2 | Python, PyTorch |
 | [llm-trace-eval](https://github.com/ellischment/llm-trace-eval) | Каркас LLM observability: трассировка вызовов через OpenTelemetry, eval-харнесс | Python, OpenTelemetry |
 | [kwork-radar](https://github.com/ellischment/kwork-radar) | Радар фриланс-заказов из Telegram-канала | Python |
-| [cu_final_ml_project](https://github.com/ellischment/cu_final_ml_project) | Финальный проект по машинному обучению в ЦУ, декабрь 2025 | Python, Jupyter |
+| [cu_final_ml_project](https://github.com/ellischment/cu_final_ml_project) | Оценка потенциала видимости произведений Art Institute of Chicago по метаданным. Финальный проект по ML в ЦУ, декабрь 2025 | Python, Jupyter |
 
 ## Ещё
 
