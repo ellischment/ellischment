@@ -26,5 +26,4 @@
 
 ## Контакты
 
-- Telegram: <@...>
 - Email: ellischment.work@gmail.com
