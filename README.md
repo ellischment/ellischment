@@ -1,28 +1,27 @@
-# Василиса Попова
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" width="100%" alt="Confidence is a shadow. A state vector h projected onto an axis: the projection is what confidence reads, the dashed remainder is the hidden part where errors live. Schematic, not data.">
+</picture>
 
-**LLM error detection и оценка неопределённости.** Ищу сигналы, по которым можно заранее понять, что модель ошибается, даже когда её уверенность молчит. Центральный университет, «Математика и компьютерные науки», 2 курс.
+**Vasilisa Popova.** I study where a model's confidence and the truth come apart: LLM error detection, uncertainty quantification, evaluation tooling. Second-year student, Mathematics and Computer Science, Central University.
 
-## С чего начать
+[ellischment.ru](https://ellischment.ru) · [ellischment.work@gmail.com](mailto:ellischment.work@gmail.com) · [По-русски](README.ru.md)
 
-| Если у вас | Откройте |
-|---|---|
-| 2 минуты | таблицу проектов ниже |
-| интерес к исследованию | [SGTA](https://github.com/ellischment/sgta-research-preview): предрегистрированный протокол с порогами и правилами опровержения, код, тесты и CI. Первые запуски в ноябре 2026 |
+## Work
 
-## Проекты
-
-| Проект | О чём | Стек |
+| Project | Question | Status |
 |---|---|---|
-| [**SGTA**](https://github.com/ellischment/sgta-research-preview) (в работе) | Пост-хок диагностика уверенных ошибок LLM: как быстро решение модели переворачивается при малых возмущениях residual stream. Протокол зафиксирован до запуска, модели Qwen2.5 и OLMo-2 | Python, PyTorch |
-| [llm-trace-eval](https://github.com/ellischment/llm-trace-eval) | Каркас LLM observability: трассировка вызовов через OpenTelemetry, eval-харнесс | Python, OpenTelemetry | Пока по факту игрушка только опубликована, другие материалы на оформлении.
-| [cu_final_ml_project](https://github.com/ellischment/cu_final_ml_project) | Оценка потенциала видимости произведений Art Institute of Chicago по метаданным. Финальный проект по ML в ЦУ, декабрь 2025 | Python, Jupyter |
+| [**SGTA**](https://github.com/ellischment/sgta-research-preview) | Does the *stability* of an LLM's hidden state tell a confident error from a confident correct answer, where hidden-state geometry cannot? | Pre-registered protocol with thresholds and kill rules, hash-pinned and checked in CI. Code and tests. No results on real data yet. |
+| [**umlip-curvature-uq**](https://github.com/ellischment/umlip-curvature-uq) | Can spread-based uncertainty detect systematic softening of phonon frequencies shared by several universal ML interatomic potentials? | Pipeline and tests. No results reported yet. |
+| [**llm-trace-eval**](https://github.com/ellischment/llm-trace-eval) | What does an LLM eval look like through OpenTelemetry traces instead of a single accuracy number? | Small working scaffold, 50-example synthetic dataset, tests. Not a benchmark. |
+| [**cu_final_ml_project**](https://github.com/ellischment/cu_final_ml_project) | Which artworks of the Art Institute of Chicago are likely to stay unseen, judging by metadata alone? | Course project, December 2025: CatBoost with SHAP analysis in one notebook. |
 
-## Ещё
+## How I work
 
-- Соавтор постера ICOMP 2026 о том, что модели могут согласоваться друг с другом и одинаково ошибаться. 
-- стипендиат Т-Банка и Авито.
-- Backend и автоматизации на Python и Docker на заказ.
+- **Fix the test before the data.** SGTA fixes its hypotheses and thresholds first, and CI fails if the protocol changes without its hash.
+- **Say what is not there.** Each repository lists what is unfinished or not implemented.
+- **A failing call must not hide a run.** In llm-trace-eval a failed model call becomes an `ERROR` span and a wrong answer, and the run continues.
 
-## Контакты
+## Also
 
-- Email: ellischment.work@gmail.com
+I build backends, automation and websites on commission in Python and Docker. Client work is private; see [ellischment.ru](https://ellischment.ru).
