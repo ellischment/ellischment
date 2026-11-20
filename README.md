@@ -11,10 +11,10 @@
 
 | Project | Question | Status |
 |---|---|---|
-| [**SGTA**](https://github.com/ellischment/sgta-research-preview) | Does the *stability* of an LLM's hidden state tell a confident error from a confident correct answer, where hidden-state geometry cannot? | Pre-registered protocol with thresholds and kill rules, hash-pinned and checked in CI. Code and tests. No results on real data yet. |
+| [**SGTA**](https://github.com/ellischment/sgta) | Does the *stability* of an LLM's hidden state tell a confident error from a confident correct answer, where hidden-state geometry cannot? | Pre-registered protocol with thresholds and kill rules, hash-pinned and checked in CI. Code and tests. No results on real data yet. |
 | [**umlip-curvature-uq**](https://github.com/ellischment/umlip-curvature-uq) | Can spread-based uncertainty detect systematic softening of phonon frequencies shared by several universal ML interatomic potentials? | Pipeline and tests. No results reported yet. |
 | [**llm-trace-eval**](https://github.com/ellischment/llm-trace-eval) | What does an LLM eval look like through OpenTelemetry traces instead of a single accuracy number? | Small working scaffold, 50-example synthetic dataset, tests. Not a benchmark. |
-| [**cu_final_ml_project**](https://github.com/ellischment/cu_final_ml_project) | Which artworks of the Art Institute of Chicago are likely to stay unseen, judging by metadata alone? | Course project, December 2025: CatBoost with SHAP analysis in one notebook. |
+| [**aic-artwork-visibility**](https://github.com/ellischment/aic-artwork-visibility) | Which artworks of the Art Institute of Chicago are likely to stay unseen, judging by metadata alone? | Course project, December 2025: CatBoost with SHAP analysis in one notebook. |
 
 ## How I work
 
