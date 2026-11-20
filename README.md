@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" width="100%" alt="Confidence is a shadow. A state vector h projected onto an axis: the projection is what confidence reads, the dashed remainder is the hidden part where errors live. Schematic, not data.">
+  <img src="assets/hero-light.svg" width="100%" alt="Singular value decomposition A = U Σ Vᵀ drawn as three steps: a disk with a golden spiral is rotated, stretched and rotated again. The long axis is what a single confidence score reads; the squeezed axis is where errors can hide. Schematic, not data.">
 </picture>
 
 **Vasilisa Popova.** I study where a model's confidence and the truth come apart: LLM error detection, uncertainty quantification, evaluation tooling. Second-year student, Mathematics and Computer Science, Central University.
